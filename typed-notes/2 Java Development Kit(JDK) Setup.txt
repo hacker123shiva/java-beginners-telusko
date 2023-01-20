@@ -1,0 +1,60 @@
+In this lecture we are discussing about setup and tools required:
+
+1)Editor/IDE
+2)Compiler or interpreter 
+3)Setup of jdk
+
+#1
+editor -It is a software which is used to write code
+example- notepad, notepad++, sublime, visual studio code..
+
+IDE - It is a software which is used to write code and compile and run the code .
+example -eclipse ide, IntelliJ ide , visual studio
+Note: With adding some extension vs code also work as IDE.
+
+--> Visual studio and vs code both are different 
+--> in this course we are follow vs code 
+
+Visual Studio Code (VS Code) is a lightweight, open-source code editor developed by Microsoft.
+It is a cross-platform application that runs on Windows, Linux, and macOS. VS Code is built on the same underlying technology as Visual Studio,
+but it is designed to be a more streamlined, lightweight development environment. 
+
+link for vs code:https://code.visualstudio.com/Download
+step to install:
+i)select in which os you using windows, linux or macOS as per system download.
+ii)just install and go next --> next -->next.
+iii)Now it is ready to use
+
+#2
+Compiler and interpreter
+-->You should download compiler and interpreter to compile or run the code.
+-->for that we have toolkit jdk java development kit 
+
+two option to download jdk :
+a) with oracle 
+b)open source like amazon cornetto 
+
+setup and installation for oracle jdk:
+link to download:https://www.oracle.com/java/technologies/downloads/
+
+--> Select long term support version that is jdk 17 as per your operating system
+-->after download just instal by clicking next -- next --next
+-->Set path in environment variable
+
+for that :
+step 1:find--> c drive -- program files -- java -- jdk -- bin 
+and copy this path  e.g c:\program files\java\jdk-17\bin 
+
+step 2:open environment variable --> system variable or user variable -->path -- edit -- new -- paste the path of bin folder of jdk
+Note: what is the difference between user and system variable?
+user variable is only for that user  and system variable is for all user
+
+step 3: save
+
+
+open cmd or PowerShell :
+write java --version and javac --version 
+to check perfectly your compiler and jvm path setup
+
+
+

@@ -1,0 +1,30 @@
+In this lecture we discussing:
+1)What is inside this course?
+2)features of java 
+3)History of java
+
+#1
+This lecture is complete course of  java since day by day new concept added in java,
+therefore this playlist created so that everyone get benefit to learn java with quality content.
+
+My name is Navin and I taught java from 12 years and work as corporate trainer and software developer.
+
+#2
+features of java 
+--> java is always within top 5 language list
+--> In every 6 month minor update of java  released
+-->Easy to read 
+-->Maintainable
+-->Follow WORA concept 
+-->OOPs language
+-->multithreaded language
+-->has collection api 
+-->exception handling
+-->java is platform independent
+
+#3
+History of java
+--> java language first released by sun microsystem in 1995
+--> But after that oracle brought the sun microsystem 
+--> in every 6 month we got update
+--> right now java launched jdk 20
