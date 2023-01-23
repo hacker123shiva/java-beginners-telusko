@@ -1,0 +1,68 @@
+
+ 
+In this lecture we are discussing
+1) datatypes for given variable
+  a)Types of data-types?
+  b)primitive data types
+  c)why do we need different type of integer type?
+  d)how to create variable of different data types?
+
+2) range and way to declare different data variable
+ 
+#1
+a) Datatypes are categories into primitive and non-primitive datatype.
+But in this lecture, we are take all concept upon primitive data type.
+
+b) There are 8 primitive datatype
+integer ---byte, short, int, long
+float --- float , double 
+character ---char 
+boolean --- boolean 
+
+c) why do we need different type of integer ?
+=> there are range for each type. for int --4 bytes ,long --8 bytes, short --2bytes byte --1byte
+
+d) How to create variable of different data type?
+=> int a=10; byte b=4
+=> dataType <variableName> = value;
+
+integer variable declaration
+int a=5;
+long b=600l; // e.g 578l, 100000l represent long integer type
+byte c=127;
+short s=128; 
+
+float vs double 
+=>double have more precision than float by default java support double.
+=>declare variable of float and double type
+  -->double a=5.6;
+  -->but float b=5.6; //give error 
+  -->correct way float b=5.6f;
+
+character representation 
+=> char ch='a'; //using single quotes on character we can declare char type of variable
+
+boolean representation of variable
+=> boolean result=true; there are only two value of boolean either true or false.
+=>In other language like c and c++ --> 0 is treated as false and non zero number treated as true but it is not in java.
+
+{byte, short, int, long, float, double, char, Boolean }
+since java is statically type or say strongly type language therefore we need 
+to mention datatype for each variable for declaring variable.
+e.g int i=5; float f=2.5f; 
+
+In java integer are by default for integer int type;
+for real number by default double
+
+#2
+Range and way to declare different data type variable
+        int i=5;// 4 bytes --->32 bytes  --> -2147483648 to 2147483647
+        short s=5;//2 bytes --> 16 bytes -->-32768 to 32767
+        byte b=5;//1 byte --> 8 bytes --> -128 to 127
+        long l=5;//8 bytes --> 64 bytes --> -9223372036854775808 to 9223372036854775807
+        float f=5.5f;//4 bytes --> 32 bytes --> 1.4e-45 to 3.4028235e+38
+        double d=5.5;//8 bytes --> 64 bytes --> 4.9e-324 to 1.7976931348623157e+308
+        char c='a';//2 bytes --> 16 bytes --> 0 to 65535
+        boolean check=true; //value is either true or false 
+        ASCII - American Standard Code for Information Interchange
+

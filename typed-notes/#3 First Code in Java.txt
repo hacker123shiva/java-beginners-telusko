@@ -1,0 +1,43 @@
+In this lecture we will learn:
+- Using the VsCode IDE
+- How to start VsCode?
+- How do we create a project?
+- Creating the first java code
+- Use of JShell to run small codes
+- Steps to compile a code in the terminal
+
+#1
+We will start doing coding in the VsCode.
+- VsCode includes Explorer, Search, Run and Debug, and Add Extension options in it.
+- You can add an extension if you want as per the VsCode recommendation like Extension Pack for Java.
+- We will create a project in Explorer.
+- VsCode itself has a terminal where you can run commands.
+	java --version  -> used to check the version of java
+	javac --version -> used to check the version of java compiler
+- java command is used to run the code while the javac command is used to compile the code.
+
+-> How do we create a project?
+Project is a very broad term that is used when we create some files and merge these files with libraries. 
+- We will create a new folder where we store all the files of our course.
+
+-> Creating a first Java file:
+-You can create the first java file in a folder like Hello.java.
+- .java is an extension of Java files.
+
+#2
+Creating our first Java Code to print "Hello World" :
+JShell:-
+- We have a concept of JShell that is introduced in Java 9 where you can create small codes and perform operations.
+- Print is an inbuilt method in Java that is used to print anything and it uses with System.out like:
+	System.out.print(6);
+	System.out.print("hello world");       
+- double quotes are used to print any text.
+- a semicolon is required after every statement in Java as per the syntax.
+-JShell can't be used for doing projects, it is only useful for experiments or learning concepts.
+
+Two steps to compile any code:
+1. Compile the code using the javac command.
+	javac filename
+2. Run the code using the java command.
+	java classname
+	

@@ -1,0 +1,47 @@
+In this lecture we will learn:
+- Steps to execute the Java code
+- What is Byte Code?
+- Java is a platform-independent language
+- Execution always starts from the main method
+- Object-oriented language
+- What are JRE and JDK?
+
+#1
+Steps to run the Java Code:-
+- We required JVM to run a java code.
+- The job of the JVM is to execute the java code that you have created but it does not accept the code directly.
+- JVM does not accept the Java code as it only understands the Byte Code.
+- Java compiler also known as javac is used to convert java code into byte code.
+- The extension for the byte code is .class
+- Thus, the code written by the programmer is first converted into byte code by the compiler and then that byte code goes to the JVM for further execution.
+	Programmer-> Java Code-> Compiler-> Byte Code-> JVM
+
+#2
+Java is a platform-independent language:-
+It means you can run Java on any machine irrespective of any hardware or operating system.
+The one thing that the machine requires to run a java code is a JVM.
+-> JVM is platform dependent and it needs to be built for a particular OS.
+
+#3
+In Java, execution always starts from the main method:-
+- JVM starts execution only with one first file. If you need to run multiple files you need to tell it which one is the first file through which JVM can start execution.
+- The first file must contain the main method with its proper signature.
+- In Java, execution always starts from the main method.
+Signature of main method:
+	public static void main(String args[])
+
+#4
+Java is an object-oriented language:-
+- Object-oriented means everything should be an object.
+- We always required a class to create an object.
+
+#5 
+JRE:-
+- To run the Java application, you need extra libraries and need runtime. Runtime is something where you run things.
+- You use extra libraries, and you also need an environment. An additional layer is present above the OS known as JRE.
+- JVM is a part of JRE. JRE includes JVM and libraries.
+	JVM -> Java Virutal Machine
+	JRE -> Java Runtime Environment
+- For development purposes, you need to install JDK (Java Development Kit) which consists of JRE and JVM.
+- Java is WORA that is Write Once Run Anywhere provided that JVM and JDK installed.
+
