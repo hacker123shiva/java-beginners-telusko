@@ -1,0 +1,47 @@
+In this lecture we are discussing:
+1)What is literal ?
+2)difference ways of representation of integers using literal?
+  a)decimal
+  b)binary
+  c)octal
+  d)hexadecimal
+3)underscore use as literal to separate digits
+4)different literal use in real value
+
+#1
+literal is a source code representation of a fixed value. 
+e.g 2000l --- represent long type of integers, 20.5f --- represent float 
+
+#2
+their are many ways to represent integer using literal:
+ a)decimal 
+  -- int num=10; int num=10004;
+
+ b)binary
+  -- int num=0b1010; int num=0b101
+  -- here literal in binary must start with 0b or 0B.
+ 
+ c)octal 
+   -- int num=0123;
+   -- literal in octal must start with 0.
+ 
+ d)hexadecimal
+   -- int num=0xA, int num=0x13B
+   -- iteral in hexadecimal must start with 0x or 0X
+
+#3
+Underscore use as literal to separate digit 
+-- int num=1_000_000; int num=3_45_78; int num=0b1010_1010;
+-- float num=3.4_56f; double num=3.4_5;
+-- underscore can be used between numbers to make it more readable
+
+#4
+different literal in real numbers
+-- float num=4.55f; 
+-- 4.5f is a float literal and f is a suffix 
+-- double d=3.44e10; --meaning of 3.44e10 is 3.44x10^10
+
+
+
+
+
