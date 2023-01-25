@@ -1,0 +1,9 @@
+In this lecture we are discussing:
+1) What is switch statement?
+2) why we need switch statement?
+3) What datatype can we use in switch?
+4) Syntax of switch and example
+4) Need of break 
+5) Need of default 
+
+
