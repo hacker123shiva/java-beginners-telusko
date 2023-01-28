@@ -1,6 +1,12 @@
 public class Java14 {
     public static void main(String []args){
         //teranary operator --shorthand if-else
+        //ternary operator is a shorthand if-else statement
+            //  why we need ternary operator?
+            // 1. to reduce the code
+            // 2. to make the code more readable
+            // 3. to make the code more compact
+
         //syntax
         //variable = (condition)? value if true : value if false
         int x=8;

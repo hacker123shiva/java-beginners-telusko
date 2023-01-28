@@ -3,6 +3,11 @@ public class Java15 {
         /*
          *Unlike if-then and if-then-else statements, the switch statement can have a number of possible execution paths. A switch works with the byte, short, char, and int primitive data types. It also works with enumerated types (discussed in Enum Types), the String class, and a few special classes that wrap certain primitive types: Character, Byte, Short, and Integer
          */
+        //what is swtich statement
+        //switch statement is a multiway branch statement that allows a variable to be tested for equality against a list of values
+        //each value is called a case, and the variable being switched on is checked for each switch case 
+        // why do we need switch statement? 
+
         String str="shiva";
         switch(str){
             case "shiva":
@@ -39,12 +44,25 @@ public class Java15 {
             case 7:
                 System.out.println("7");
                 break;
-             
+             default:
+                System.out.println("No match found");
         }
 
 /*
  The default section handles all values that are not explicitly handled by one of the case sections.
  */
+
+//  switch without dfautl 
+
+        int y=9;
+        switch(y){
+            case 8:
+                System.out.println("8");
+                break;
+            case 7:
+                System.out.println("7");
+                break;
+        }
 
     }
 }
