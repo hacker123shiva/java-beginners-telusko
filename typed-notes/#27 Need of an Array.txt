@@ -1,0 +1,24 @@
+In this lecture we are discussing:
+1)What is an Array ?
+2)Why do we need array?
+3)Simple variable declaration vs Array variable declaration
+
+#1
+-- An array is collection of similar type of data and store  in contagious memory.
+-- e.g marks is collection of different marks obtained by 4 student then {24,25,26,27} is that marks then 
+this marks store in contagious manner in memory.
+
+#2
+Why so we need array?
+-- suppose we want to create five variable for student marks 
+-- int m1=24; int m2=25; int m3=26; int m4=27; int m5=28;
+-- it is quite tedious to store multiple value in multiple variable and remember the marks.
+-- now one reason is that to create single variable which can store multiple value and access by its index.
+
+#3
+Simple variable declaration vs Array variable declaration
+-- for creating normal variable
+int num; boolean result=true;
+
+-- for creating array variable 
+int nums []; or int []nums; -- both are acceptable to declare array variable

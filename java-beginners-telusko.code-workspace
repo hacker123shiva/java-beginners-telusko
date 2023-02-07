@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "java-beginners-telusko",
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}

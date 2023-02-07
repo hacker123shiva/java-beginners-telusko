@@ -1,0 +1,31 @@
+In this lecture we are discussing about array of objects:
+-- If we create array by default value assign for each type of array
+-- The new operator automatically initializes the elements of an array to their default value, which, for example, is zero for all numeric types
+and null for all reference types.
+-- why we should we know length of array using length property?
+-- There is array out of bound exception.
+
+How to create array of object and what does it means?
+-- just like to create array for int, float, char we can create array of object 
+-- when we we create array of object it means we create an array which can hold the reference of object.
+
+e.g
+class Student{
+
+}
+
+Student st=new Student();
+we know st is reference and new Student() is object.
+and st hold reference of student object.
+
+similarly whenever we create array of object
+Student sts[]=new Student[5];
+it means we can create an array of Student reference type which can hold 5 different reference of
+Student object.
+sts[0]=new Student();
+sts[1]=new Student();
+sts[2]=new Student();
+sts[3]=new Student();
+sts[4]=new Student();
+
+
