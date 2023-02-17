@@ -1,0 +1,15 @@
+ //exception 
+ //errors compile time errors
+ //run time errors
+ //logical  errors
+
+//syntax error 
+//create compile time error
+
+//logical  error --everything is correct but output is not correct
+
+//run time error --exception 
+//exception  is a run time error which is caused by the user 
+//we need to handle exception 
+
+//your code is compile correctly but when you run it you get an error 

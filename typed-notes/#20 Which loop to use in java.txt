@@ -1,0 +1,19 @@
+In this lecture we will learn:
+- Use case of for loop
+- Use case of while loop
+- Use case of do-while loop
+
+For loop:-
+If you know how many iterations you want to go for loop
+(intiliazing vaue, condition, increment or decrement)
+- Most of the times for loop is used.
+
+While loop:-
+When you need to read the file go for while loop, if the number of iterations is not known.
+- While loop will be used mostly when we want to read a file or read a database.
+
+-> For loop can also be used as a while.
+ 
+Do While Loop:-
+If you condition get false but you want to exceute the code at least once.
+- It will runs one for sure whether the condition is true or false.

@@ -1,0 +1,31 @@
+In this lecture we will learn:
+- What is JVM?
+- What is JDK?
+- What is JRE?
+- Importance and uses of JVM, JRE, and JDK.
+
+#1
+To compile the Java code, we need a tool and that tool is known as JDK ( Java Development Kit).
+- Byte code runs on a machine so we have to convert the java code into the byte code.
+- On installing the JDK, we get both updated JRE and JVM.
+
+#2
+JVM stands for Java Virtually Machine.
+- JVM is the space where you execute the code.
+- JVM is used to make the Java language a platform- independent.
+- You have to compile the code through JDK and then run the code through JVM.
+- JVM is platform dependent and it needs to be built for a particular OS.
+- JVM is platform-dependent.
+
+#3
+JRE stands for Java Runtime Environment.
+- JRE contains all the in-built classes and other extra files and libraries that we can use in our code.
+- JRE validates the byte code.
+- JRE loads a class.
+- If you use extra libraries, and you also need an environment. An additional layer is present above the OS known as JRE.
+
+#4
+- JVM is a part of JRE. JRE includes JVM and libraries.
+	JVM -> Java Virutal Machine
+	JRE -> Java Runtime Environment
+- For development purposes, you need to install JDK (Java Development Kit) which consists of JRE and JVM.

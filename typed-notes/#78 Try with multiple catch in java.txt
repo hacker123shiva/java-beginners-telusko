@@ -1,0 +1,23 @@
+ class Main{
+   public static void main(String []args){
+      int i=2;
+      int j=3;
+      int arr[]={1,2,3,4,5};
+//try with multiple catch blocks
+      try{
+         j=i/j;
+         System.out.println(arr[5]);
+      }
+      catch(ArithmeticException e){
+         System.out.println("Arithmetic Exception cannot divide by zero");
+      }
+      catch(ArrayIndexOutOfBoundsException  e){
+         System.out.println("ArrayIndexOutOfBounds Exception");
+      }
+      catch(Exception e){
+         System.out.println("Exception");
+      }
+       //when you have child and parent exception then parent exception should be at last 
+       
+   }
+ }

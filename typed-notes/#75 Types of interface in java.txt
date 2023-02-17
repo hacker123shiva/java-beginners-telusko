@@ -1,0 +1,15 @@
+types  of interface
+three parts:
+1) Normal interface
+2)functional interface /SAM 
+3)Marker  interface
+
+if you create interface
+and you two or more method in interface normal interface
+
+if you create interface with a single method in interface is functional interface
+
+if you have no method in interface marker interface
+
+why do we need marker interface
+serilizable

@@ -1,0 +1,34 @@
+// functional interface is interface with only one abstract method
+// functional interface can have any number of default methods
+// functional interface can have any number of static methods
+
+class Main{
+    public static void  main(String []args){
+A obj = new B();
+obj.show();
+
+//another way to implement functional interface
+A obj1 = new A(){
+    @Override
+    public void show(){
+        System.out.println("Hello");
+    }
+    };
+obj1.show();
+
+}
+}
+//one way to implement functional interface
+class B implements A{
+    @Override
+    public void show(){
+        System.out.println("Hello");
+    }
+}
+
+//specify it is functional interface
+@FunctionalInterface //we use this annotation to specify it is functional interface
+interface A{
+    void show();
+    //void run(); //this will give error as it is not functional interface
+} 

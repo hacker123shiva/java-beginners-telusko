@@ -1,0 +1,13 @@
+hierrachry of exception
+      Object class
+            |
+        Throwable
+---------       --------
+|                       |
+Error               Exception 
+            -----------    -----------------------------------------------
+            |                                   |                        |
+        RuntimeEception(uncheked)          SQLException(checked)       IOException(checked)
+            ArithmeticException
+            NullPointerException
+            ArrayIndexOutOfBoundsException

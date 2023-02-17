@@ -1,0 +1,46 @@
+ 
+
+class Main{
+    public static void  main(String []args){
+A obj = new B();
+obj.show();
+
+//another way to implement functional interface
+A obj1 = new A(){
+    @Override
+    public void show(){
+        System.out.println("Hello");
+    }
+    };
+obj1.show();
+
+//now we can use lambda expression to implement functional interface
+//you can remove new A() and public void show() and replace it with () -> System.out.println("Hello"); 
+//if you have single statements you need not to mention curly braces and return keyword
+A obj2 = () -> System.out.println("Hello");
+obj2.show();
+
+//here you can use lambda expression to implement interface C
+C obj3= i-> System.out.println(i);
+obj3.show(5);
+ 
+}
+}
+//one way to implement functional interface
+class B implements A{
+    @Override
+    public void show(){
+        System.out.println("Hello");
+    }
+}
+
+//specify it is functional interface
+@FunctionalInterface //we use this annotation to specify it is functional interface
+interface A{
+    void show();
+    //void run(); //this will give error as it is not functional interface
+} 
+
+interface C{
+  public void show(int i);
+}

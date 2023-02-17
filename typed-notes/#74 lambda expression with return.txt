@@ -1,0 +1,13 @@
+ class Main{
+    public static void main(String[] args){
+        // Anonymous class with lambda expression 
+        //if you have single statement and want to return something then you need not to write return keyword and curly braces
+       A obj= (i,j)-> i+j;
+         System.out.println(obj.add(5,6));
+//lambada expression works with functional interface
+    }
+ }
+
+ interface A{
+    public int add(int i,int j);
+ }
