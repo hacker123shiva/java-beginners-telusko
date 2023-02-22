@@ -7,17 +7,4 @@
 
    //without handling in try catch block
    //we can duck the exception by using throws keyword 
-
-   class Main
-   {
-	   public static void main(String []args){
-System.out.println("shiva");
-A obj =()->System.out.println("shiva");
-obj.hashCode();
-	   }
-   }
    
-
-   interface A{
-void show();
-   }

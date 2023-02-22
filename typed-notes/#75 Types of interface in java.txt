@@ -1,15 +1,25 @@
+In this lecture we are discussing types of interface:
+#1
 types  of interface
-three parts:
 1) Normal interface
 2)functional interface /SAM 
 3)Marker  interface
 
-if you create interface
-and you two or more method in interface normal interface
+#2
+i)Normal interface 
+Normal interface contains two or more abstract method.
+It can have any number of static and default methods and also even public methods of Object classes.
+you can declare variable which are public static final by deault
 
-if you create interface with a single method in interface is functional interface
+ii)Functional Interface:
+Functional Interface is an interface that has only pure one abstract method.
+It can have any number of static and default methods and also even public methods of Object classes
+e.g Runnable interface : It contains only  run()  method 
 
-if you have no method in interface marker interface
+iii)
+Marker Interface:
+An interface that does not contain any methods, fields, Abstract Methods, and any Constants is Called a Marker interface.
+Also, if an interface is empty, then it is known as Marker Interface.
+The Serializable and the Cloneable interfaces are examples of Marker interfaces.
 
-why do we need marker interface
-serilizable
+ 

@@ -1,0 +1,19 @@
+ //custom exception class
+ //if you want to throw own exception then you have to extend Exception class or RuntimeException class 
+
+ 
+ public class Main{
+   public static void main(String []args){
+      try{
+         throw new NavinException("This is my exception");
+      }catch(NavinException e){
+         System.out.println(e.getMessage());
+      }
+   }
+ }
+
+ class NavinException extends Exception{
+   public NavinException(String s) {
+      super(s);
+   }
+}

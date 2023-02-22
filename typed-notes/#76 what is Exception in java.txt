@@ -1,15 +1,42 @@
- //exception 
- //errors compile time errors
- //run time errors
- //logical  errors
+In this lecture we are discussing about Exception:
+-- In java three types of errors that can occur during the execution of a program
+   i) compile time error
+   ii)logical error
+   iii) run time error -- this can be called as Exception
+i)
+Compile-time errors:
+Compile-time errors are errors that occur during the compilation of the Java code. 
+These errors are caused by syntax errors, missing semicolons, or incorrect variable names, 
+among other things. If there are compile-time errors in your Java program, it cannot be compiled into bytecode, 
+and it cannot be executed.
 
-//syntax error 
-//create compile time error
+ii)
+Logical errors:
+Logical errors are errors that occur when the program runs correctly, but it does not produce the expected output. 
+These errors occur because of a mistake in the program's logic. For example, if a program is supposed to add two numbers 
+but instead multiplies them, it will produce the wrong output. Logical errors are more difficult to detect than compile-time 
+errors because the program runs without any error messages.
 
-//logical  error --everything is correct but output is not correct
+Exceptions(Runtime error)
+Exceptions are errors that occur during the execution of the Java program. 
+Exceptions occur when something unexpected happens, such as trying to read from a file that does not exist or dividing by zero. 
+When an exception occurs, the program will terminate unless the exception is handled by an exception handler.
 
-//run time error --exception 
-//exception  is a run time error which is caused by the user 
-//we need to handle exception 
+In Exception we have Checked and Unchecked Exception this topic is discussed in Exception hierarachy:
+a)
+Checked Exception:
+Checked exceptions are exceptions that the Java compiler requires you to handle or declare. 
+These exceptions are checked at compile time, and you must either handle the exception with a try-catch block or declare it with a throws clause. 
+If you do not handle or declare a checked exception, the code will not compile. Checked exceptions are typically related to input/output operations, 
+such as file handling or network communication.
 
-//your code is compile correctly but when you run it you get an error 
+b)
+Unchecked Exception:
+unchecked exceptions are exceptions that are not checked at compile time. These exceptions are typically caused by programming errors, 
+such as null pointer exceptions, array index out of bounds exceptions, and class cast exceptions. Unchecked exceptions are not required 
+to be handled or declared, but they can still occur during runtime.
+
+Important:
+both checked and unchecked exceptions can occur during runtime, but checked exceptions are checked at compile time and require handling 
+or declaring, while unchecked exceptions are not checked at compile time and do not require handling or declaring.
+  

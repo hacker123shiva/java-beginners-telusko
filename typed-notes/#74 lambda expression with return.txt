@@ -1,3 +1,20 @@
+In this lecture we are discussing about lambda expression:
+ 
+#1
+ -- if we have a functional interface 
+  interface A{
+   int add(int i, int j);
+  }
+in this case, we return int type from add a method for that we can write a lambda expression 
+in different ways.
+-- if we have a single statement you do not need of curly braces
+A obj1 =(i,j)-> return i+j;
+
+-- if we want to return something in a single statement, no need to mention the return keyword
+A obj2 =(i,j)->i+j;
+
+#2 
+Example:
  class Main{
     public static void main(String[] args){
         // Anonymous class with lambda expression 
