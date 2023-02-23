@@ -9,7 +9,7 @@ types  of interface
 i)Normal interface 
 Normal interface contains two or more abstract method.
 It can have any number of static and default methods and also even public methods of Object classes.
-you can declare variable which are public static final by deault
+you can declare variables which are public static final by default
 
 ii)Functional Interface:
 Functional Interface is an interface that has only pure one abstract method.
@@ -22,4 +22,4 @@ An interface that does not contain any methods, fields, Abstract Methods, and an
 Also, if an interface is empty, then it is known as Marker Interface.
 The Serializable and the Cloneable interfaces are examples of Marker interfaces.
 
- 
+

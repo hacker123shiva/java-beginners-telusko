@@ -17,12 +17,13 @@ These errors occur because of a mistake in the program's logic. For example, if 
 but instead multiplies them, it will produce the wrong output. Logical errors are more difficult to detect than compile-time 
 errors because the program runs without any error messages.
 
+iii)
 Exceptions(Runtime error)
 Exceptions are errors that occur during the execution of the Java program. 
 Exceptions occur when something unexpected happens, such as trying to read from a file that does not exist or dividing by zero. 
 When an exception occurs, the program will terminate unless the exception is handled by an exception handler.
 
-In Exception we have Checked and Unchecked Exception this topic is discussed in Exception hierarachy:
+In Exception, we have Checked and Unchecked Exception this topic is discussed in Exception hierarchy:
 a)
 Checked Exception:
 Checked exceptions are exceptions that the Java compiler requires you to handle or declare. 
