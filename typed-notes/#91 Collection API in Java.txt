@@ -1,0 +1,23 @@
+In this lecture we will learn:
+- Collections in Java
+- Components of collection API
+- What is the collection framework?
+- When to use the collection framework?
+
+
+#1
+In Java, collection consists of:
+1. Collection API  --> concept
+2. Collection  --> Interface
+3. Collections --> Class
+
+- A framework is a set of classes and interfaces which provide a ready-made architecture.
+- Any group of individual objects which are represented as a single unit is known as the collection of the objects.
+- Collection is used to store multiple values.
+- Array is also used to store multiple values but it is not used in dynamic programming.
+- We use data structures to store and fetch the data.
+- Collection API is used in the java 1.2 version where you can work with all data structures by using some in-built classes.
+
+#2
+- We can use an array, where the length will be fixed. We cannot expand the size of an array.
+- Wherever we have a specific requirement for different algorithms and structures, we can use collection API.
